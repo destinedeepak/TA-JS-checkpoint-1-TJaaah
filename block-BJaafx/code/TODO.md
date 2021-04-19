@@ -120,7 +120,7 @@ third output will be `who are you` because we are passing a empty string. So fis
 ```
 10. What is the difference between `for` loop and `while` loop. What are the different place you can use them? Explain with example.
 
-We use `while` loop when number of iteration is unknown but `for` loop is used when number of iteration is known. Inside while paranthesis we can define only condition, the initialization have to be defined oustide the while statement whereas inside `for` statement we can define initialization, condition and increment in the paranthesis. 
+We use `while` loop when number of iteration is unknown but `for` loop is used when number of iteration is known. Inside `while` paranthesis we can define only condition, the initialization have to be defined oustide the while statement whereas inside `for` statement we can define initialization, condition and increment in the paranthesis. 
 
 example:
 ```js
@@ -132,3 +132,12 @@ while(num != 0){
 }
 return sumOfNum;
 ```
+This program is for adding digits of a number and no. of iteration is unknown. So `while` loop is being used.
+
+```js
+for(int i=0; i<=100;){
+  sumOfHundred += i;
+}
+return sumOfHundred;
+```
+This program is for adding 0 to 100. Since, here we knew the number of iteration we will use for loop.
